@@ -61,7 +61,7 @@ function setColor(arr){
             colours[i] = '#4D4DFF'
         }
     }
-    background(colours[0], colours[1], colours[2])
+    background(...colours)
     console.log(colours)
 }
 //////////////////Step 5////////////////////
